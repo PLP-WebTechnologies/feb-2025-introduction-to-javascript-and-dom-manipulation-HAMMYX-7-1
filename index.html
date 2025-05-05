@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Interaction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1 id="main-heading">Welcome to My Interactive Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <p id="intro-text">Click the button below to change this text and style!</p>
+            <button onclick="changeText()">Change Text & Style</button>
+        </section>
+
+        <section>
+            <button onclick="addElement()">Add Element</button>
+            <button onclick="removeElement()">Remove Element</button>
+            <div id="dynamic-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Interactive Web</p>
+    </footer>
+
+</body>
+</html>
 
